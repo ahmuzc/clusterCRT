@@ -1,5 +1,5 @@
 #cv between cluster coefficient variation
-#y estimated person-years
+#y estimated person-years per cluster
 #lambda estimated event rate
 cluster.eventrate <- function(a=0.05,b=0.2,lambda0,lambda1,cv,y){
   #plus one corrects for small number of clusters
